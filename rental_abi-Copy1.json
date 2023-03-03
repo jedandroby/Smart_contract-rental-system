@@ -168,6 +168,11 @@
 				"type": "uint256"
 			},
 			{
+				"internalType": "string",
+				"name": "stockName",
+				"type": "string"
+			},
+			{
 				"internalType": "uint256",
 				"name": "startDate",
 				"type": "uint256"
@@ -284,6 +289,16 @@
 		],
 		"name": "getRentalDetails",
 		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "rentalId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "stockName",
+				"type": "string"
+			},
 			{
 				"internalType": "uint256",
 				"name": "startDate",
